@@ -1,6 +1,6 @@
 require 'pry'
 
-def hello(array)
+ef hello(array)
   i = 0
   collection = []
   while i < array.length
@@ -8,7 +8,7 @@ def hello(array)
     i += 1
   end
   collection
-end x
+end 
 
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
