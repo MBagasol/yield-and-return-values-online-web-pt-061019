@@ -8,7 +8,7 @@ def hello(array)
     i += 1
   end
   collection
-end
+end x
 
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
